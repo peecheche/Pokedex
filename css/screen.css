@@ -1,0 +1,38 @@
+.screen-border {
+    background-color: var(--white);
+    padding: 1.5rem;
+    /* padding-block-end: 2.75rem; */
+    border-radius: .5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2rem 100%, 0%calc(100% - 2.75rem));
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: .875rem; */
+    max-block-size: 14.31rem;
+    box-sizing: border-box;
+    padding-block-end: 0;
+}
+
+.screen-safeArea {
+    background-color: #8db9dc;
+    padding: 1rem;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    block-size: 10rem;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.screen-borderButtons {
+    /* border: 1px solid red; */
+    block-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: .5rem;
+}

@@ -1,0 +1,38 @@
+.variants { 
+    grid-area: variants;
+}
+
+.variants-buttons {
+    display: flex;
+    gap: 2.1rem;
+    align-items: center;
+}
+
+.button.is-round {
+    block-size: 3.25rem;
+    inline-size: 3.25rem;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 2px 0 var(--black));
+    border: none;
+}
+
+.button.is-rectangular {
+    block-size: .5rem;
+    inline-size: 1.875rem;
+    background-color: var(--secondary);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 2px 0 var(--black));
+    border: none;
+}
+
+.button.is-rectangular.is-yellow {
+    background-color: #fecb2f;
+    filter: drop-shadow(2px 2px 0 #d2ab33);
+}
+
+.button:active {
+    transform: scale(.9)
+}
